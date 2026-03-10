@@ -1,9 +1,11 @@
 start, end = input().split()
 
 start = int(start)
+
 end = int(end)
 
 if start >= end:
+    
     print("Ошибка: начало диапазона должно быть меньше конца")
 else:
     fib1, fib2 = 0, 1
